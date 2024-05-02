@@ -278,6 +278,34 @@ form button {
   padding: 10px;
 }
 
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.tabs button {
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  background: #3370ac;
+}
+
+.button {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.tab-content {
+  margin-top: 20px;
+  text-align: center;
+}
+
 @media only screen and (max-width:578px) {
   .container .examples {
     font-size: 23px;

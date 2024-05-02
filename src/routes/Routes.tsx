@@ -9,6 +9,7 @@ import ActionExample1 from '../components/ActionExample1/ActionExample1';
 import { ActionExample2 } from '../components/ActionExample2/ActionExample2';
 import UseFormStateExample from '../components/UseFormStateExample/UseFormStateExample';
 import UseOptimisticExample from '../components/UseOptimisticExample/UseOptimisticExample';
+import UseTransitionExample from '../components/UseTransitionExample/UseTransitionExample';
 
 
 export const router = createBrowserRouter(
@@ -37,6 +38,7 @@ export const router = createBrowserRouter(
                 }
             />
             <Route path='useOptimisticExample' element={<UseOptimisticExample />} />
+            <Route path='useTransitionExample' element={<UseTransitionExample />} />
         </Route>
     )
 )
